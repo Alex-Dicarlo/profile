@@ -1,0 +1,123 @@
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  /* background-color: #38405f; */
+  background-image: url("../profile/images/background.jpg");
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+.container {
+  width: 400px;
+  margin: 20px auto;
+}
+
+.div-one {
+  background-color: white;
+  border: 1px solid black;
+  margin: 20px auto;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.div-one, h1, h3 {
+  text-align: center;
+  color: black;
+}
+
+.div-one img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  display:block;
+  margin:auto;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.div-two {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 20px auto;
+  padding: 25px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 25px;
+}
+
+.div-two, h2 {
+  text-align: center;
+}
+.div-two, p {
+  text-align: justify;
+}
+
+.div-three {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 25px;
+  text-align: center;
+  min-height: 120px;
+}
+
+
+.btn {
+  background-color: rebeccapurple;
+  color: white;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  border-radius: 100px;
+  transition: 0.4s;
+}
+
+.btn:hover {
+  background-color: white;
+  color: rebeccapurple;
+  border: 1px solid rebeccapurple;
+}
+
+
+.div-four {
+  background-color: white;
+  border: 1px solid black;
+  margin: 20px auto;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 25px;
+}
+
+.div-four > h3 {
+  text-align: center;
+  padding: 3px;
+}
+
+.list > li {
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.list > li > a {
+  text-decoration: none;
+}
+
+.list > li > a:hover {
+  text-decoration: underline;
+}
